@@ -1,0 +1,16 @@
+type Query {
+    getTokenName(address: String): String
+
+    getTokenSymbol(address: String): String
+
+    getTotalSupply(address: String): String
+
+    getPriceETHV2(address: String): String
+
+    getPriceETHV3(address: String): String
+
+    getPriceUSDV2(address: String): String
+
+    getPriceUSDV3(address: String): String
+
+}
